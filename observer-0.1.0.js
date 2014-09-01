@@ -18,4 +18,23 @@
  * tracks user interactions over a page in order to supply informations for user experience statistics 
  */
 
- 
+var observer = (function(w, undefined) {
+
+	var inputs = document.getElementsByTagName('input');
+
+	var log = function (message) {
+		console.log(message);
+	}
+
+	var logInputs = function() {
+		for (var countForInputs = 0, len = inputs.length; countForInputs < len; countForInputs++) {
+			log(inputs[countForInputs].name);
+		}
+	}
+
+	return {
+		logInputs : logInputs
+	}
+
+})(window);
+
