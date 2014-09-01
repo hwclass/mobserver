@@ -28,7 +28,7 @@ var observer = (function(w, undefined) {
 
 	var logInputs = function() {
 		for (var countForInputs = 0, len = inputs.length; countForInputs < len; countForInputs++) {
-			log(inputs[countForInputs].name);
+			log('input name: ' + inputs[countForInputs].name + (inputs[countForInputs].type === 'button' ? '' : ', ' + 'value: ' + inputs[countForInputs].value) );
 		}
 	}
 
