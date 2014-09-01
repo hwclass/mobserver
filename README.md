@@ -1,4 +1,4 @@
 observer
 ========
 
-A UX tracking infromatin generator
+A UX tracking infromation generator
