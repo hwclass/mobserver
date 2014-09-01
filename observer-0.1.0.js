@@ -7,13 +7,15 @@
  * Licensed under MIT
  * http://www.opensource.org/licenses/mit-license.php
  *
- * http://docs.jquery.com/Plugins/Authoring
- * jQuery authoring guidelines
+ * github.com/hwclass/observer/README.md
+ * Script Guideline
  *
- * Launch  : July 2014
+ * Launch  : September 2014
  * Version : 0.1.0
- * Released: July 29th, 2014
+ * Released: September xxx, 2014
  *
  *
- * makes an element initialize for defined events with their names
+ * tracks user interactions over a page in order to supply informations for user experience statistics 
  */
+
+ 
