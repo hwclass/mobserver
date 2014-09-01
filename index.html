@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-			<title>Jquery Initialize Plugin Sample File</title>
+			<title>Observer - A UX Tracking Infromation Generator</title>
 			<meta charset="utf-8">
-			<!--
-      <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-      <link rel="stylesheet" href="style/blog.css">
-      -->
       <style>
       	input {margin-bottom: 10px;} 
       	.clear {clear: both;}
       </style>
-			<script type="text/javascript" src="observer-0.1.0.js"></script>
+			<script type="text/javascript" src="observer-0.2.0.js"></script>
 	</head>
 	<body>
 		<input type="text" name="name"/>
@@ -23,7 +19,7 @@
 		<input type="button" name="sendButton" value="Send"/>
 		<script type="text/javascript">
 		window.onload = function () {
-			observer.logInputs();
+			observer.trackEvents().startTimer();
 		};
 		</script>
 	</body>
