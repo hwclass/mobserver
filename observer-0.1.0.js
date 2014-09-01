@@ -22,15 +22,22 @@ var observer = (function(w, undefined) {
 
 	var inputs = document.getElementsByTagName('input');
 
+	window.onmousemove = handleMouseMove;
+
+  function handleMouseMove(event) {
+      event = event || window.event; // IE-ism
+      log('X: ' +  event.clientX + ' Y: ' +  event.clientY);
+  };
+
 	var log = function (message) {
 		console.log(message);
-	}
+	};
 
 	var logInputs = function() {
 		for (var countForInputs = 0, len = inputs.length; countForInputs < len; countForInputs++) {
 			log('input name: ' + inputs[countForInputs].name + (inputs[countForInputs].type === 'button' ? '' : ', ' + 'value: ' + inputs[countForInputs].value) );
 		}
-	}
+	};
 
 	return {
 		logInputs : logInputs
