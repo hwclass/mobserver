@@ -1,5 +1,5 @@
 /*!
- * observer.js - A UX Tracking Infromation Generator
+ * observer.js - A UX Tracking Information Generator
  *
  * Copyright (c) 2014 Barış Güler
  * http://hwclass.github.io
