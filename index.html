@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-			<title>Observer - A UX Tracking Infromation Generator</title>
+			<title>Mobserver - A UX Tracking Infromation Generator</title>
 			<meta charset="utf-8">
       <style>
       	input {margin-bottom: 10px;} 
       	.clear {clear: both;}
       </style>
-			<script type="text/javascript" src="observer-0.2.0.js"></script>
+			<script type="text/javascript" src="mobserver-0.2.0.js"></script>
 	</head>
 	<body>
 		<input type="text" name="name"/>
@@ -19,7 +19,7 @@
 		<input type="button" name="sendButton" value="Send"/>
 		<script type="text/javascript">
 		window.onload = function () {
-			observer.trackEvents().startTimer();
+			mobserver.trackEvents().startTimer();
 		};
 		</script>
 	</body>

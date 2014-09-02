@@ -1,5 +1,5 @@
 /*!
- * observer.js - A UX Tracking Information Generator
+ * mobserver.js - A UX Tracking Information Generator
  *
  * Copyright (c) 2014 Barış Güler
  * http://hwclass.github.io
@@ -7,7 +7,7 @@
  * Licensed under MIT
  * http://www.opensource.org/licenses/mit-license.php
  *
- * github.com/hwclass/observer/README.md
+ * github.com/hwclass/mobserver/README.md
  * Script Guideline
  *
  * Launch  : September 2014
@@ -18,7 +18,7 @@
  * tracks user interactions over a page in order to supply informations for user experience statistics 
  */
 
-var observer = (function(w, undefined) {
+var mobserver = (function(w, undefined) {
 
 	var config = {
 		timer : 0,

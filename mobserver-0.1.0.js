@@ -1,5 +1,5 @@
 /*!
-* observer.js - A UX Tracking Infromation Generator
+* mobserver.js - A UX Tracking Infromation Generator
 *
 * Copyright (c) 2014 Barış Güler
 * http://hwclass.github.io
@@ -7,7 +7,7 @@
 * Licensed under MIT
 * http://www.opensource.org/licenses/mit-license.php
 *
-* github.com/hwclass/observer/README.md
+* github.com/hwclass/mobserver/README.md
 * Script Guideline
 *
 * Launch : September 2014
@@ -17,14 +17,14 @@
 *
 * tracks user interactions over a page in order to supply informations for user experience statistics
 */
-var observer = (function(w, undefined) {
+var mobserver = (function(w, undefined) {
 	
 	var inputs = document.getElementsByTagName('input');
 	
 	window.onmousemove = handleMouseMove;
 	
 	function handleMouseMove(event) {
-		event = event || window.event; // IE-ism
+		event = event || window.event;
 		log('X: ' + event.clientX + ' Y: ' + event.clientY);
 	};
 
